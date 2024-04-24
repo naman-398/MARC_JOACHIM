@@ -62,7 +62,7 @@ const Header = () => {
               <p className=" font-Helvetica sm:-rotate-90 font-normal text-2xl sm:text-[40px]">
                 01
               </p>
-              <p className=" font-Helvetica  font-normal text-2xl leading-[30px]">
+              <p className=" font-Helvetica  font-normal text-2xl leading-[30px] uppercase">
                 fault
               </p>
             </div>
