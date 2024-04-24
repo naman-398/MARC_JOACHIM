@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
+import Header from './components/Header';
+import Itisnotyourfault from './components/Itisnotyourfault';
+import Target from './components/Target';
+import Yourex from './components/Yourex';
+import Lawyer from './components/Lawyer';
+import Takesection from './components/Takesection';
+import Footer from './components/Footer';
+import What from './components/What';
+import Swiperone from './components/Swiperone';
+import Swipertwo from './components/Swipertwo';
+import Loader from './components/Loader';
+import Backtotop from './components/Backtotop';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {once:true,
+      duration:2000,}
+    );
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div  className=' overflow-hidden'>
+    <Loader/>
+    <Backtotop/>
+<Header/>
+<Itisnotyourfault/>
+<What/>
+<Target/>
+<Swiperone/>
+<Yourex/>
+<Lawyer/>
+<Swipertwo/>
+<Takesection/>
+<Footer/>
+  </div>
   );
 }
 
