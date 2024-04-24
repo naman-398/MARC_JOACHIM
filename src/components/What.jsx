@@ -79,7 +79,7 @@ const What = () => {
       </div>
       <div className="relative pb-14 pt-4 576:py-14">
         <img
-          className="absolute max-w-[310px] max-h-[300px] left-[0%] top-[45%]"
+          className="absolute max-w-[310px] max-h-[300px] left-[0%] top-[60%]"
           src={flower3}
           alt="ellp"
         />

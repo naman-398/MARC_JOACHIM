@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import swiperoneelipse2 from "../assets/images/swiperoneelipse2.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
-import swiperoneelipse from "../assets/images/swiperoneelipse2.webp";
+import swiperoneelipse from "../assets/images/swiperoneelipse.webp";
 
 import "swiper/css";
 import "swiper/css/effect-flip";
